@@ -7,9 +7,16 @@
 
 <br>
 
-<input type="text" #temp style="margin-right: 5px"> 
 
-<button (click)="onclick(temp)">send data from input field</button> <br> <br>
+<div style="width: 430px; height: 50px; border: 2px solid red; margin: 10px">
+<input type="text" placeholder="enter data" #temp style="margin:10px"> 
 
-<button (click)="getUsername()">update username from api call</button>
+<button (click)="onclick(temp)">send data from input field</button> 
 
+</div>
+
+<div style="margin: 10px; width: 430px;height: 50px; border: 2px solid blue; ">
+
+<button style="margin:10px" (click)="getUsername()">update username from api call</button>
+
+</div>
